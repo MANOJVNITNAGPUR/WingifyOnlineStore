@@ -33,6 +33,7 @@ public class WingifyService {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String checkService() {
+		logger.info("service Started");
 		return "Wingify online store service is running ...";
 	}
 
